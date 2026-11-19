@@ -2,7 +2,7 @@
 FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /src
 
-COPY ["Aegis.sln", "./"]
+COPY ["Aegis.slnx", "./"]
 COPY ["src/Aegis.Domain/Aegis.Domain.csproj", "src/Aegis.Domain/"]
 COPY ["src/Aegis.Application/Aegis.Application.csproj", "src/Aegis.Application/"]
 COPY ["src/Aegis.Infrastructure/Aegis.Infrastructure.csproj", "src/Aegis.Infrastructure/"]
